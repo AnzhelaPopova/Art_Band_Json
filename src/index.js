@@ -1,4 +1,4 @@
-let json = `[{    "name": "Час для леди",
+let json = `{ data : [   "name": "Час для леди",
     "time": "16 февраля  в 18.00",    "age": "21+",
     "price": "500р",   
     "description": "Встреча с Загидат",    "url": "https://drive.google.com/file/d/1WSavf02kT_Ldvz_CoHCty9QYRzYawZbi/view?usp=share_link"
@@ -12,7 +12,7 @@ let json = `[{    "name": "Час для леди",
     "age": "8+",    "price": "1200р",
         "description": "картина в 3х техниках",
     "url": "https://drive.google.com/file/d/1I6hJb4eVXihuwTlHL7Gl-LYzaFNAw_4x/view?usp=share_link"
-}]`
+]}`
 
 // Создаем переменные
 let currentSlide = 0; // Начальный слайд
